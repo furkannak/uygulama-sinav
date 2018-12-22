@@ -1,0 +1,11 @@
+girilen = str(input("bir cümle giriniz"))
+print("tersten: " + girilen[::-1])
+girilensplit = girilen.split()
+print(girilensplit)
+for i in range(len(girilensplit)):
+    print( len(girilensplit[i]))
+
+for i in range(len(girilensplit)):
+    kelime = girilensplit[i]
+    kelime1 = kelime[::-1]
+    print(kelime1)
