@@ -1,0 +1,14 @@
+for a in range(2,56000):
+    d1=a*(a+1)/2
+    for b in range(2,33000):
+        d2=b*(3*b-1)/2
+        if d1==d2:
+            for c in range(2,28000):
+                d3=c*(2*c-1)
+                if d1==d2==d3:
+                    print d1,d2,d3
+
+
+
+
+
